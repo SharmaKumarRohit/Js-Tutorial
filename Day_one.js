@@ -1,34 +1,34 @@
-// use strict mode wrong code write down karne par warning throw karta hai
+// <================== use strict mode wrong code write down karne par warning throw karta hai ===========================>
 
 // "use strict";
 
-// -- console.log() sample print the output --
+// <=================== console.log() sample print the output =========================>
 
 // console.log(`Hello World`);
 // console.log('Hello World');
 // console.log("Hello World");
 
-// intro to variables
+// <================== intro to variables =============================>
 
 // variables can store some information
 // we can use that information later
 // we can change that information later
 
-// declare a variable
+// <======================== declare a variable =====================>
 
 // firstName = ="Rohit"; -- (Do not use this code. This is a bad practice.)
 // Declare and after use it.
 // var firstName = "Rohit";
 
-// use a variable
+// <================= use a variable =================>
 // console.log(firstName);
 
-// change value
+// <=================== change value ==================>
 
 // firstName = "Abhay";
 // console.log(firstName);
 
-// rules for naming variables
+// <================== rules for naming variables ====================>
 
 // you cannot start with number
 // example :-
@@ -56,12 +56,12 @@
 // first name (invalid)
 // var first name = "Abhay"; -- (Invalid)
 
-// convention
+// <=================== Variable decleareation convention ======================>
 // start with small letter and use camelCase
 // var firstName = "Rohit"; // camel case writing
 // esh maei firstName ko camelCase writing esh maei before maei small letter and after maei capital letter lekha hai.
 
-// let keyword
+// <===================== let keyword =====================>
 // declare variable with let keyword
 
 // let firstName = "Rohit";
@@ -72,12 +72,13 @@
 
 // block scope vs function scope (covered later in this tutorial)
 
-// declare constants
+// <======================== declare constants =======================>
+// const -- const ko ak bar decleare kar ne par uske value ko change nahi keya jashakta hai.
 
 // const pi = 3.14;
 // console.log(pi);
 
-// String indexing
+// <================ String indexing ===================>
 
 // let firstName = "RohitSharma";
 
@@ -90,17 +91,18 @@
 // console.log(firstName[3]);
 // console.log(firstName[4]);
 
-// length of string
+// <================= length of string ===================>
 // firstName.length
 
 // console.log(firstName.length);
 
 // last Index : length - 1
+// console.log(variableName[variableName.length-1]) -- last Index value ko print karega.
 
 // console.log(firstName[firstName.length-1])
 // console.log(firstName[firstName.length-2])
 
-// variableName.trim() --- Content ka andar ka extra spaces ko remove karta hai. For Example,
+// variableName.trim() --- Content ka andar ka extra spaces ko remove karta hai(matlab content ka left and right ka spaces ko remove karta hai). For Example,
 
 // let firstName = "     Rohit     ";
 // console.log(firstName.length);
@@ -133,7 +135,7 @@
 // firstName = firstName.slice(0, 5);
 // console.log(firstName);
 
-// typeof operator
+// <=================== typeof operator ====================>
 
 // let age = 20;
 // let firstName = "Rohit";
@@ -142,7 +144,7 @@
 // console.log(typeof 20);
 // console.log(typeof "Rohit");
 
-// data types (primitive data types)
+// <================== data types (primitive data types) ======================>
 // (1.) string "Rohit"
 // (2.) number 2, 4, 5.6
 // (3.) booleans
@@ -152,8 +154,8 @@
 // (7.) Symbol
 
 
+// <================= convert number to string. ===================>
 // 20(Number) = "20"(String)
-// convert number to string.
 
 // let age = 20;
 // console.log(typeof age);
@@ -166,7 +168,7 @@
 // age = age + "";
 // console.log(typeof age);
 
-// convert string to number.
+// <================== convert string to number. ======================>
 
 // let firstName = "20";
 // console.log(typeof firstName);
@@ -184,7 +186,7 @@
 // let newStr = +"20";
 // console.log(typeof newStr);
 
-// string concatenation (concatenation ka matlab hai two strings ko add karna). For Example,
+// <========= string concatenation (concatenation ka matlab hai two strings ko add karna). For Example, =========>
 
 // let firstName = "Rohit";
 // let lastName = "Kumar";
@@ -198,7 +200,7 @@
 // let newString = +string1 + +string2;
 // console.log(newString);
 
-// template string
+// <==================== template string ===================>
 
 // let age = 20;
 // let firstName = "Rohit";
@@ -214,14 +216,14 @@
 // let fullContent = `My name is ${firstName} and My age is ${age}.`; // Template string
 // console.log(fullContent);
 
-// undefined
+// <=================== undefined =====================>
 
 // var fullName;
 // console.log(typeof fullName);
 // let age;
 // console.log(typeof age);
 
-// null
+// <=========================== null ========================>
 
 // let myVariable = null;
 // console.log(myVariable);
@@ -229,7 +231,7 @@
 // console.log(myVariable, typeof myVariable);
 // console.log(typeof null);
 
-// BigInt
+// <==================== BigInt ======================>
 
 // let myNumber = 123n;
 // console.log(myNumber);
@@ -243,7 +245,7 @@
 // let sameMyNumber = 1234n;
 // console.log(myNumber + sameMyNumber);
 
-// booleans & comparison operator
+// <================= booleans & comparison operator =========================>
 
 // booleans
 // true, false
